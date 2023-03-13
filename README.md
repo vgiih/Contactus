@@ -1,15 +1,15 @@
-Contact Manager Web Application
+#Contact Manager Web Application
 This is a contact manager web application that allows users to add, edit, and delete contacts.
 The web application has a simple and intuitive user interface that allows users to easily
 add, edit, and delete contacts.
 
 
-Getting Started
+##Getting Started
 To get started with this web application, clone the repository and navigate to the project directory. 
 Then, run npm install to install the dependencies (react-router-dom, react-icons, json-server).
 
 
-Running the Application
+##Running the Application
 To run the web application, run npm start in the project directory. This will start the application on http://localhost:3000/.
 And also run npm run backend. This will start the data base on http://localhost:5000/contacts/.
 
