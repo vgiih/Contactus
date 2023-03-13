@@ -1,0 +1,59 @@
+.contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.person{
+    display: flex;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.menuContact{
+    margin-top: 15px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+/*
+.dropdown{
+    position: relative;
+    top: 25px;
+    left: 92%;
+    border: 1px solid #ccc;
+    width: 150px;
+    background-color: white;
+    z-index: 999;
+}
+
+.dropdown p{
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    display: block;
+    padding: 8px;
+    margin: 4px 0;
+    cursor: pointer;
+}
+
+.dropdown p:hover{
+    background-color: #efefef;
+}
+
+.dropdown.hidden {
+    border: none;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.4s ease-in-out;
+  }
+
+*/

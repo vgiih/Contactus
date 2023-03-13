@@ -1,0 +1,37 @@
+.container {
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 35px;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    background-color: white;
+  }
+  
+  .start {
+    justify-content: flex-start;
+  }
+  
+  .column {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .min-height {
+    min-height: 90%;
+    height: 90%;
+  }
+
+@media screen and (max-width: 1024px) {
+    .container{
+      margin: 35px 2%;
+      overflow: auto;
+      height: auto;
+    }
+    
+    .min-height{
+      min-height: none;
+      max-height: none;
+    }
+}

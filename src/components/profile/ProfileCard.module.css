@@ -1,0 +1,106 @@
+.profileContainer{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.close{
+    font-size: 35px;
+    color: #8204ff;
+    position: absolute;
+    top: 38px;
+    left: 90%;
+    cursor: pointer;
+}
+
+.close:hover{
+    background-color: #8204ff;
+    color: white;
+    border-radius: 35px;
+}
+
+/* PROFILE DATA */
+
+.profileData{
+    padding: 8% 0 4% 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.profileData h2{
+    font-weight: lighter;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.profileData p{
+    margin-bottom: 10px;
+}
+
+.pic img{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 220px;
+    height: 300px;
+    border-radius: 4%;
+}
+
+/* EDIT AND DELETE */
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.icon{
+    font-size: 40px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.icons p{
+    cursor: pointer;
+}
+
+.icon:hover{
+    font-size: 45px;
+    color: #8204ff;
+}
+
+.icon:hover + p{
+    font-weight: bold;
+    color: #8204ff;
+}
+
+@media screen and (max-width: 1068px) { 
+    .icons{
+        margin: 7% auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .icons{
+        display: flex;
+        justify-content: space-between;
+        max-width: 300px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .icons p{
+        font-size: 14px;
+    }
+    
+    .icon{
+        font-size: 30px;
+    }
+
+    .icon:hover{
+        font-size: 35px;
+        color: #8204ff;
+    }
+}
